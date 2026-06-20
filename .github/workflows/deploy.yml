@@ -26,7 +26,8 @@ jobs:
       - name: Build Web
         run: |
           flutter pub get
-          flutter build web --release --base-href "/YOUR_REPO_NAME/"
+          flutter 
+          build web --release --base-href "/"
 
       # 4. Deploy to the gh-pages branch
       - name: Deploy to GitHub Pages
